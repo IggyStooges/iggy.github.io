@@ -1,0 +1,771 @@
+body {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0;
+  padding-right: 40px;
+  padding-left: 40px;
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: uppercase;
+  background-color: rgb(255, 255, 255);
+  color: #000000;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-header {
+  position: relative;
+    width: 1200px;
+  min-height: 564px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  background-image: url("../img/background.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.header-logo,
+.main-header-logo{
+    position: absolute;
+    top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  font-size: 0;
+  line-height: 0;
+  width: 138px;
+  height: 70px;
+}
+
+.site-navigation {
+  display: flex;
+    justify-content: space-between;
+  margin: 0;
+  padding: 0 73px;
+  list-style: none;
+  line-height: 26px;
+  font-weight: bold;
+  background-color: #ffffff;
+}
+
+.site-navigation a {
+  color: rgb(0, 0, 0);
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus {
+  color: rgb(129, 179, 210);
+}
+
+.site-navigation a:active {
+  color: rgb(202, 202, 202);
+}
+
+.site-navigation a:visited {
+  color: rgb(118, 99, 87);
+}
+
+.cause {
+  margin: 0;
+  padding: 0;
+}
+
+.causes p {
+  margin: 0;
+  padding: 0;
+  padding-top: 30px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.causes p:first-child {
+  width: 450px;
+  padding-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 26px;
+}
+
+.causes .container {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 60px;
+  margin-top: 60px;
+}
+
+.cause h3 {
+  font-weight: bold;
+  font-size: 21px;
+}
+
+.causes h3 {
+  padding: 0;
+  margin: 0;
+}
+
+.cause-realcity,
+.cause-bridge {
+  padding: 0;
+  margin: 0;
+  background-color: rgb(129, 179, 210);
+  color: rgb(255, 255, 255);
+}
+
+.causes-wrapping {
+  display: flex;
+  width: auto;
+  padding: 0;
+  margin: 0;
+}
+
+.causes-last-wrapping {
+  display: flex;
+  width: auto;
+  padding: 0;
+  margin: 0;
+  justify-content: space-around;
+  background-color: rgb(238, 238, 238);
+}
+
+.cause-realcity .photo-town {
+  width: 800px;
+  height: 256px;
+  padding: 0;
+  margin: 0;
+}
+
+.causes-flex-element {
+  width: 400px;
+  box-sizing: content-box;
+  padding: 0;
+  margin: 0;
+  padding-top: 50px;
+}
+
+.cause-realcity p,
+.cause-bridge p,
+.cause-area p,
+.cause-road p,
+.cause-tourists p {
+  width: 280px;
+  padding: 0;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cause-realcity span,
+.cause-bridge span,
+.cause-area span,
+.cause-road span,
+.cause-tourists span {
+  display: block;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.cause-area,
+.cause-road,
+.cause-tourists {
+  min-height: 256px;
+  background-color: rgb(238, 238, 238);
+}
+
+.facilities {
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+  padding-top: 56px;
+  background-color: rgb(255, 255, 255);
+  list-style: none;
+  color: rgb(0, 0, 0);
+}
+
+.facilities img {
+  margin-bottom: 30px;
+}
+
+.facilities h3 {
+  margin-bottom: 30px;
+}
+
+.map {
+  padding: 0;
+  margin: 0;
+  width: 1200px;
+  height: 593px;
+}
+
+.booking {
+  min-height: 291px;
+  padding-top: 60px;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.booking h2 {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.booking p {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  padding-bottom: 0px;
+  line-height: 24px;
+  width: 440px;
+}
+
+
+
+
+
+.search-hotel {
+ position:absolute; top:300px; width: 568px;
+  height: 86px;
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: bold;
+  background-color: rgb(118, 99, 87);
+  border: none;
+  color: rgb(255, 255, 255);
+}
+
+
+.search-hotel:hover,
+.search-hotel:focus {
+  background-color: rgb(96, 78, 67);
+  color: rgb(255, 255, 255);
+}
+
+.search-hotel:focus {
+  background-color: rgb(80, 62, 51);
+  color: rgba(255, 255, 255, 0.3);
+}
+
+
+.booking-wrap {width: 568px;
+  min-height: 395px;
+  padding: 0;
+  margin: 0;
+  margin-right: auto;
+  margin-left: auto;
+  box-shadow: 0 0 15px -5px #ededed;
+}
+
+
+.arrival-fieldset {
+  border: none;
+}
+
+.departure-fieldset {
+  border: none;
+}
+
+
+.search-hotel:hover .booking-window{
+ display:inline-block;}
+
+
+.people-fieldset {
+  border: none;
+}
+
+.booking-window input {
+line-height: 26px;
+  font-weight: bold;
+}
+
+.booking-window input[type="number"] {
+  width: 75px;
+  height: 38px;
+  background-color: rgb(242, 242, 242);
+  border: none;
+}
+
+.booking-window input[type="text"] {
+  width: 346px;
+  height: 38px;
+  background-color: rgb(242, 242, 242);
+  border: none;
+}
+
+.booking-window input:hover {
+  background-color: rgb(235, 235, 235);
+}
+
+.booking-window input:focus {
+  width: 342px;
+  height: 34px;
+  border: 2px solid rgb(229, 229, 229);
+  background-color: rgb(255, 255, 255);
+}
+
+.booking-window input[type="number"]:focus {
+  width: 71px;
+  height: 34px;
+}
+
+.search {
+  width: 458px;
+  height: 58px;
+  font-size: 21px;
+  line-height: auto;
+  font-weight: bold;
+  background-color: rgb(129, 179, 210);
+  color: rgb(255, 255, 255);
+  border: none;
+}
+
+.search:hover {
+  background-color: rgb(102, 158, 192);
+}
+
+.search:active {
+  background-color: rgb(84, 150, 189);
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.button-plus-minus {
+  width: 39px;
+  height: 38px;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 26px;
+  color: rgb(169, 169, 169);
+  background-color: rgb(242, 242, 242);
+  border: none;
+}
+
+.button-plus-minus:hover,
+.button-plus-minus:focus {
+  color: rgb(0, 0, 0);
+}
+
+.button-plus-minus:active {
+  color: rgb(129, 179, 210);
+}
+
+.calendar-button {
+  background-color: rgb(242, 242, 242);
+  border: none;
+}
+
+.calendar-button img {
+  color: rgb(202, 202, 202);
+}
+
+.calendar-button img:hover,
+.calendar-button img:focus {
+  color: rgb(0, 0, 0);
+}
+
+.calendar-button img:active {
+  color: rgb(129, 179, 210);
+}
+
+
+.footer-wrap {
+  display: flex;
+  padding: 0;
+  margin: 0;
+      padding: 50px 0;
+  margin: 0;
+  margin-left: 130px;
+  margin-right: 100px;
+}
+
+.footer-social {
+  margin: 0;
+  padding: 0;
+}
+
+.social-list {
+  display: flex;
+  width: 150px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.social-list li {
+  width: 46px;
+  height: 48px;
+  margin-right: 6px;
+  background-color: rgb(129, 179, 210);
+}
+
+.twitter-btn {
+  background-image: url("../img/twitter.svg");
+}
+
+.fb-btn {
+  background-image: url("../img/fb-icon.svg");
+}
+
+.yotube-btn {
+  background-image: url("../img/youtube.svg");
+}
+
+.social-button {
+  display: block;
+  height: 100%;
+  width: 100%;
+  font-size: 0px;
+  line-height: 0px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.social-button:hover,
+.social-button:focus {
+  background-color: rgb(102, 158, 192);
+}
+
+.social-button:active {
+  opacity: 0.3;
+  background-color: rgb(84, 150, 189);
+}
+
+.footer-copyright {
+  display: flex;
+  width: 215px;
+  margin: 0;
+  padding: 0;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 14px;
+  line-height: 41px;
+}
+
+.button-academy {
+  width: 115px;
+  height: 41px;
+  font-size: 0;
+  line-height: 0;
+  background-image: url("../img/logo-htmlacademy.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.button-academy:hover,
+.button-academy:focus {}
+
+.button-academy:active {}
+
+.visit {
+  width: 150px;
+  padding: 0;
+  margin: 0;
+  margin-right: 255px;
+  text-align: center;
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+}
+
+.footer-copyright {
+  margin-left: auto;
+  line-height: 26px;
+}
+
+.inner-page {
+  min-height: 933px;
+}
+
+.inner-header {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 56px;
+}
+
+.booking-options {
+  margin: 0;
+  padding: 0;
+  color: rgb(255, 255, 255);
+  background-image: url("../img/filterbackground.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.booking-options-container {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  margin-left: 70px;
+  margin-right: 70px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.booking-infrastructure-wrap {
+  margin: 0;
+  padding: 0;
+  width: 241px;
+  
+}
+
+.booking-type-wrap {
+  margin: 0;
+  padding: 0;
+  margin-right: 200px;
+  width: 241px;
+}
+
+.booking-cost-wrap {
+  margin: 0;
+  padding: 0;
+  width: 328px;
+}
+
+.booking-legend {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 20px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.booking-form fieldset {
+  margin: 0;
+  padding: 0;
+  border: none;
+  text-align: left;
+}
+
+.option-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.option-list li {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 25px;
+}
+
+.option-list li:last-child {
+  margin: 0;
+  padding: 0;
+}
+
+.show {
+  border: 2px solid white;
+  background-color: rgba(255, 255, 255, 0);
+  color: inherit;
+}
+
+.show:focus,
+.show:hover {
+  border: 2px solid white;
+  background-color: rgba(255, 255, 255, 1);
+  color: rgb(0, 0, 0);
+}
+
+.cost-per-day input[type="number"] {
+  border: 2px solid white;
+  background-color: rgba(255, 255, 255, 0);
+  color: inherit;
+}
+
+.booking-form b {
+  font-size: 21px;
+}
+
+.sorting-wrap {
+  display: flex;
+    align-items: baseline;
+  margin: 0;
+  padding: 0;
+    margin-left: 73px;
+    margin-right: 73px;
+}
+
+.sorting {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  
+}
+
+.sorting b {
+  margin: 0;
+  padding: 0;
+  margin-right: 45px;
+  width: 120px;
+}
+
+.sorting .sort {
+  margin: 0;
+  padding: 0;
+  margin-right: 40px;
+  width: 75px;
+  font-size: 12px;
+}
+
+.sorting-buttons {
+  justify-content: space-around;
+  width: 288px;
+}
+
+.variants {
+  margin: 0;
+  padding: 0;
+}
+
+.sorting-button {
+  margin-right: 33px;
+  border: none;
+  border-bottom: 1px dashed rgb(129, 179, 210);
+  background-color: rgba(255, 255, 255, 0);
+  color: rgb(227, 227, 227);
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.arrows {
+  margin: 0;
+  padding: 0;
+  width: 60px;
+  margin-left: auto;
+}
+
+.arrows .visually-hidden {
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  line-height: 0;
+}
+
+.sorting-button:hover,
+.sorting-button:focus {
+  color: rgb(129, 179, 210);
+}
+
+.sorting-button:active {
+  border: none;
+  color: rgb(0, 0, 0);
+}
+
+.sorting-button:visited {
+  border: none;
+  color: rgb(129, 179, 210);
+}
+
+.variants-finded {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-left: 73px;
+    margin-right: 73px;
+   
+}
+
+.variants-finded h3 {
+  font-size: 21px;
+  line-height: 26px;
+}
+
+.variants-finded li {
+  display: flex;
+  margin: 0 -73px 0 -73px;
+  padding: 30px 73px 30px 73px;
+    border-bottom: 1px solid lightgray;
+}
+
+.variants-finded li:first-child {
+    border-top: 1px solid lightgray;
+}
+
+.variants-finded-container {
+  margin: 0;
+  padding: 0;
+}
+.variants-finded-container h3 {
+      margin: 0;
+  padding: 0;
+}
+
+.hotel-page {
+  color: rgb(0, 0, 0);
+}
+
+.hotel-page:hover,
+.hotel-page:active {
+  color: rgb(129, 179, 210);
+}
+
+.hotel-page:active {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.variants-finded li {
+  text-align: left;
+}
+
+.raiting {
+  text-align: right;
+    margin-left:auto;
+}
+
+.details {
+  height: 27px;
+  width: 110px;
+  font-weight: bold;
+  border: none;
+  text-align: center;
+  background-color: rgb(129, 179, 210);
+  color: rgb(255, 255, 255);
+}
+
+.details:hover,
+.details:focus {
+  background-color: rgb(102, 158, 192);
+}
+
+.details:active {
+  background-color: rgb(84, 150, 189);
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.book-now {
+  height: 27px;
+  width: 142px;
+  font-weight: bold;
+  text-align: center;
+  border: none;
+  background-color: rgb(118, 99, 87);
+  color: rgb(255, 255, 255);
+}
+
+.book-now:hover,
+.book-now:focus {
+  background-color: rgb(96, 78, 67);
+}
+
+.book-now:active {
+  background-color: rgb(80, 62, 51);
+  color: rgba(255, 255, 255, 0.3);
+}
