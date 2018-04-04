@@ -11,18 +11,94 @@
 
 <body class="inner-page">
   <header class="inner-header">
+    <a>
+      <img class="main-header-logo" alt="Логотип Нердс">
+        NERDS 
+      </img> 
+    </a>
     <nav class="inner-navigation">
       <ul class="site-navigation">
+        <li><a href="studio.html">студия</a></li>
+        <li><a href="clients.html">клиенты</a></li>
+        <li><a href="shop.html">магазин</a></li>
+        <li><a href="contacts.html">контакты</a></li>
       </ul>
     </nav>
-    <a class="header-logo" href="index.html">Ссылка на главную страницу
-    </a>
+    <a href="#">Корзина</a>
+  <h1>Магазин готовых шаблонов</h1>
   </header>
-  <main class="container-inner">
-
-  </main>
-  <footer class="inner-footer">
   
+  <main class="container-inner">
+    <section class="form-section">
+      <form class="form-sorts" method="post" action="url">
+        <fieldset class="cost-fieldset">
+          <legend>стоимость</legend>
+          <input class="input-range" type="range" min="0" max="15000">
+          <input class="cost min-cost" type="range" min="0" max="15000" placeholder="0">
+          <input class="cost max-cost" type="number" min="0" max="15000" placeholder="15000">
+        </fieldset>
+        <fieldset class="web-fieldset">
+          <legend>сетка</legend>
+          <input class="input-radio" type="radio" id="adaptive">
+            <label for="adaptive">Адаптивная</label>
+          <input class="input-radio" type="radio" id="fixed">
+            <label for="fixed">Фиксированная</label>
+          <input class="input-radio" type="radio" id="rubber">
+            <label for="rubber">Резиновая</label>
+        </fieldset>
+        <fieldset class="features-fieldset">
+          <legend>особенности</legend>
+          <input class="input-radio" type="checkbox" id="slider">
+            <label for="slider">Слайдер</label>
+          <input class="input-radio" type="checkbox" id="advantages">
+            <label for="advantages">Блок преимуществ</label>
+          <input class="input-radio" type="checkbox" id="news">
+            <label for="news">Новости</label>
+          <input class="input-radio" type="checkbox" id="gallery">
+            <label for="gallery">Галерея</label>
+          <input class="input-radio" type="checkbox" id="basket">
+            <label for="basket">Корзина</label>
+        </fieldset>
+      </form>
+    </section>
+    <section class="sorting-section">
+      <p>сортировать
+        <a href="#">по цене</a>
+        <a href="#">по типу</a>
+        <a href="#">по названию</a>
+        <a href="#">от большего</a>
+        <a href="#">от меньшего</a>
+      </p>
+      <div class="templates">
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+      </div>
+      <nav class="pages-navigation">
+        <a href="#">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+        <a href="#">Следующая</a>
+      </nav>
+    </section>
+    section class="map>
+    
+    </section>       
+  </main>
+
+  <footer class="inner-footer">
+    <ul class="social-list">
+      <li><a href="vk">VK</a></li>
+      <li><a href="vk">FB</a></li>
+      <li><a href="vk">Instagramm</a></li>
+    </ul>
+    <article class="friendship">                
+     <b>Давайте дружить, это выгодно</b>
+     <p>Скидка 10% для друзей из социальный сетей</p>
+    </article>
   </footer>
 </body>
 
